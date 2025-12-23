@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: Tahoma;
+  background: #fdf6e3;
+  text-align: center;
+}
+
+header {
+  background: #2e8b57;
+  color: white;
+  padding: 20px;
+}
+
+.menu a {
+  color: #fff5e6;
+}
+
+.hero {
+  background: #faf0e6;
+  padding: 40px;
+}
+
+.cta {
+  background: #3cb371;
+}
+
+.card {
+  background: #ffffff;
+  border: 2px solid #2e8b57;
+}
+
+.card button {
+  background: #3cb371;
+}
+
+.category {
+  background: #ffffff;
+  border: 2px solid #2e8b57;
+}
+
+.category:hover {
+  background: #e0f2f1;
+}
+
+footer {
+  background: #2e8b57;
+}
+
+.categories {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.category {
+  width: 200px;
+  background: white;
+  border: 2px solid #006400;
+  border-radius: 10px;
+  padding: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.category i {
+  font-size: 35px;
+  color: #006400;
+}
+
+.category:hover {
+  background: #e6ffe6;
+  transform: scale(1.05);
+}
+
+#productsSection {
+  padding: 40px;
+}
